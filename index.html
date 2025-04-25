@@ -1,5 +1,28 @@
 <!doctype html>
-<html><head><meta charset="utf-8"><title>Mi landing</title></head>
-<body style="margin:0">
-  <img src="landing.JPG" style="width:90%;height:90vh;object-fit:cover">
-</body></html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Convocatoria AMEIV</title>
+    <style>
+      /* quita márgenes y centra la imagen */
+      html,body{
+        margin:0;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:#fff;       /* fondo blanco como la hoja */
+      }
+      img{
+        max-width:100%;        /* nunca desborda a lo ancho */
+        max-height:100vh;      /* nunca desborda a lo alto */
+        width:auto;            /* conserva la proporción */
+        height:auto;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="landing.jpg" alt="Convocatoria AMEIV">
+  </body>
+</html>
